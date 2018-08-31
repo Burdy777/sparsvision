@@ -1,13 +1,10 @@
 <div class="container">
-  <!-- <img src="./assets/spars.jpg" alt=""> -->
-  <!-- <div class="line"></div> -->
-  <div class="title_wrapper">
-    <div class="title_prefix">
-        <h1>Spars</h1>
+  <div class="container__title">
+    <div class="container__title__prefix">
+      <ng-content select="[prefix]"></ng-content>
     </div>
-    <div class="title_sufix">
-      <h1>Vision</h1>
+    <div class="container__title__sufix">
+      <ng-content select="[suffix]"></ng-content>
+    </div>
   </div>
-  </div>
-
 </div>
